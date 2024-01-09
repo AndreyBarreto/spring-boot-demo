@@ -27,7 +27,7 @@ public class User implements Serializable {
         super();
         this.id = id;
         this.name = name;
-        this.name = email;
+        this.email = email;
         this.phone = phone;
         this.password = password;
     }
